@@ -1,4 +1,24 @@
-button,input,textarea{background:0 0;font:inherit}.icon-box,.sidebar,article{box-shadow:var(--shadow-1)}.h5,.info-content .name{font-weight:var(--fw-500)}.navbar-link,.social-item .social-link:hover{color:var(--light-gray)}.clients-list,.testimonials-list{scroll-behavior:smooth;overscroll-behavior-inline:contain;scroll-snap-type:inline mandatory}.filter-select.active+.select-list,.modal-container.active,.overlay.active{visibility:visible;pointer-events:all}.contacts-list,.input-wrapper,.project-list{grid-template-columns:1fr}:root{--bg-gradient-onyx:linear-gradient(
+button,input,textarea{background:0 0;font:inherit}
+.hire-me {
+padding: 16px 20px;
+width: 180px;
+color: var(--orange-yellow-crayola);
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 14px;
+box-shadow: var(--shadow-3);
+z-index: 1;
+margin: 30px auto;
+background: var(--border-gradient-onyx);
+border: 1px solid;
+}
+
+.hire-me:hover {
+background: var(--bg-gradient-yellow-1);
+}
+.icon-box,.sidebar,article{box-shadow:var(--shadow-1)}.h5,.info-content .name{font-weight:var(--fw-500)}.navbar-link,.social-item .social-link:hover{color:var(--light-gray)}.clients-list,.testimonials-list{scroll-behavior:smooth;overscroll-behavior-inline:contain;scroll-snap-type:inline mandatory}.filter-select.active+.select-list,.modal-container.active,.overlay.active{visibility:visible;pointer-events:all}.contacts-list,.input-wrapper,.project-list{grid-template-columns:1fr}:root{--bg-gradient-onyx:linear-gradient(
     to bottom right, 
     hsl(240, 1%, 25%) 3%, 
     hsl(0, 0%, 19%) 97%
